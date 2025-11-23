@@ -3,7 +3,7 @@ package br.com.alura.luraBuy.Principal;
 public class Principal {
     private String nomeUsuario = "João Pedro Sousa";
     private int numeroConta = 21092001;
-    private double saldoLimite = 5699.89;
+    private double saldoLimite = 1000;
 
     public String getNomeUsuario() {
         return nomeUsuario;

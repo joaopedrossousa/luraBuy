@@ -8,13 +8,12 @@ public class MetodoDeCompra {
 
     public Produto realizarCompra (Scanner scanner){
         System.out.print("Produto: ");
-        scanner.nextLine(); // consome newline pendente do menu (se houver)
         String nome = scanner.nextLine();
 
         System.out.print("Valor: ");
         double valor = scanner.nextDouble();
+        scanner.nextLine();
 
-        // NÃO fechar o scanner aqui (System.in)
         return new Produto(nome, valor);
     }
 
